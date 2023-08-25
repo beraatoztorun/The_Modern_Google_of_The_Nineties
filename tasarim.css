@@ -1,0 +1,63 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+/* Şekilleri ortala */
+center {
+    display: block;
+    text-align: center;
+}
+
+/* Google logosunun stil ayarları */
+img {
+    width: 351px;
+    height: 113px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Form ve tablo stil ayarları */
+form {
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Arama kutusu ve buton stil ayarları */
+input[type="text"],
+input[type="submit"] {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Bağlantıların stil ayarları */
+a {
+    text-decoration: none;
+    color: #4285f4;
+    margin: 0 5px;
+}
+
+/* Altbilgi stil ayarları */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
